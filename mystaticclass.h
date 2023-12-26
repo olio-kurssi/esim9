@@ -5,7 +5,7 @@
 class MyStaticClass
 {
 public:
-    MyStaticClass();
+    MyStaticClass()=delete;
     static double doubleMe(double);
 };
 

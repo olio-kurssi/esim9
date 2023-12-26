@@ -10,6 +10,7 @@ int main()
     cout << "Anna desimaaliluku" << endl;
     cin>>myValue;
     myResult=MyStaticClass::doubleMe(myValue);
+
     cout << "Tulos on "<<myResult<<endl;
 
     return 0;

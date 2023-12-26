@@ -1,9 +1,5 @@
 #include "mystaticclass.h"
 
-MyStaticClass::MyStaticClass()
-{
-
-}
 
 double MyStaticClass::doubleMe(double value)
 {
