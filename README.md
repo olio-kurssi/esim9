@@ -6,3 +6,5 @@ Mutta toiminnallisesti samaan tulokseen päästään, kun luokan kaikki metodit 
 Esimerkiksi C#:ssa on luokka Math, josta löytyy esimerkiksi funktio sqrt. Ei ole järkevää, että voidaksesi käyttää tuon luokan metodeja sinun tulisi luoda luokasta olio. Voit laskea esimerkiksi luvun 4 neliöjuuren koodilla **Math.Sqrt(4)**.
 
 Tässä esimerkissä on luokka MyStaticClass, jonka ainoa metodi **doubleMe** on määritetty staattiseksi, joten sitä voidaan kutsua esimerkiksi koodilla **MyStaticClass::doubleMe(4.0)**
+
+Koska MyStaticClass luokan muodostin on muodossa **MyStaticClass()=delete;**, luokasta ei voi tehdä oliota.
